@@ -3,651 +3,237 @@
 
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/c197f23fcdac5e547b0b0e2e5449e0cf83a4f194/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2e065ae8d89830c83cf4a2a3972473d2909dc962/classes.dex" />
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.20.0_3142f691c418051a4181e19a7ece56c21bc96936\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/df850e7c5e41d0e96c588fc03f2a83f403371acb/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\4e792e13305fcb7ac0039a01fedf22d9b5802190\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_205c195e46246548180048d507bd0df61ed2bc07/classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7fff9244587ab9314b1992f8f04d9982c4c39c73\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/13914442610867ec46c86c185b86f25b224af95e/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_430417268271ef2069dcb5489cff4e2e958c0a32/classes.dex" />
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-13.0_2c920d99e40d7c67cc707f2d43f90ccd09ba8e36\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/47c5ce491f9ee5954514902d5f41045be4e86ce8/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\d2b13ff07319fb3206fe29b61cf53e803e881fae\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64b6f38a29aba3d84bb16846886c82cf57382634/classes.dex" />
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c08898041bd7db41bddf70fc170cefb29b2e143\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/842eeb1bd81dadb08c9f03c061276686f462e376/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\9dac55be833f1e6f814dcb1629b1b50254565020\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_137fbc80065705a0a40c8262bddba1b09911c8d0/classes.dex" />
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_add1baf95a1a08cc4ea810a994fdd9b387a5fe90\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/9dc5b9f14afd85c07e1f979b1b464e65c797dce3/output/jars/classes.jar"
+        jar="C:\Users\lenovo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84d668d536429777047f55406f01423df2a25851/classes.dex" />
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_368418ba40e346289ba971132aa2154b03a77c2d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/397ff1d193d2cf44ac683adbaab45a8f50564ae0/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\4cecb5eeccf21869488434198078d85b7aec7bfc\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_196bbf3b8c2c5ba17e46dbe7f48740ecd1d18133/classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af01d84a148cb2cb25f5f84b99f417b89c0e0068\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/2ca887a961ce08fde8fa18aabca9833139c38f63/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\cb5947ae656374e916d9c9298b6edd42f51dec34\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c1a8422578221a790e3d87811b376a7694343797/classes.dex" />
+        sha1="93b7d6ba3bb340e935bf7a36408eb3455264b759">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b0d49e7df722eb6bd5b92675d38e98f9b49747d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/83881b4c61c20bac2e84020ea83935527766b46a/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\f00ac130fa693c2dd4c10ee1f4e35d982c16ba0a\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2eecdfb626f34be8369c8d5adf8f217cff79fdbf/classes.dex" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f284d0092370ecc795a247dd6dd27c79d102e91\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/8614ca31bbe4c03a9203b4587bf8b2d380888840/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\6c79498e2f5cc364ce175bdbe43f1dd688efbcb8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a2a17bafbdbbfeb5a77f396e4fd6350be58c3b90/classes.dex" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1bd4734258b50eb6366620d588c8e1be2cf8bad\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/e3a1f57a368656071ba0e9725eb0dd67ab6a7f66/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3d95251d592b7c35bce729ba8da009f07fa4745/classes.dex" />
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-android-1.20.0_7faed2fcc1aa7754d4fdabb6bbb792bfbf41ea86\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/d0e5b3c6454e4d216bb952e10e2c0d3024f999a6/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.20.0\93d82db2bca534960253f43424b2ba9d7638b4d2\google-http-client-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_85b4aee5affe5bff87ac8b38515a074e8819a947/classes.dex" />
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.20.0_c11fb08fc3020062a8a16104bc90e68432abb868\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/dd1f72fad573b4cbc79057bb7e53413452a02906/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d69646346f2db83bfb48755603c2adfa5e053099/classes.dex" />
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.20.0_1ceb44ff2329d83e9cd4d05345da40a2e8ba68fa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/5ea8a0bc8c9c9c8fe10167a07bbfa12ff89b5aed/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\38f9766c29067ca238e7639faa560afc7371cf64\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a740d2b1c6c4cbe8108b93bcbedbe93a1ebdebb/classes.dex" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33e01eae652b2a9c44f90aa268dabb8a97d0bbf6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/56498efd17752898cfcc3868c1b6211a07b12b8f/joda-time-2.3.jar"
+        jar="C:\Users\lenovo\.android\build-cache\7ff749b6d6c9e6f7dcb0897070b6b0bb5371a7d9\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.3_bde421485da0f476a715cdc02e299de8d5a7f2f3/classes.dex" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3316167a54face326d1241b20103cfebc78603d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/7a102beb6b0c180e77fe7151299e1c865719f1f5/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\49f145c21f66194be5f44c4e760a61572de73171\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eae0423f1c6e53f1465bfbd5a5ff9af1d8ae9814/classes.dex" />
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_98af6e6456bbfdcdca6a5dc8e8ada81f7d771027\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/fdd9e3ed939402b08159a328aae51ba5281bdd3a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3eb04b747793718af86df9507adcf31831988e22/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/21789251cffc1bec96821dc8e983b7d1596b8774/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82390acc0876727633a496efa25b82b2818ebf50/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/199fb3fe2840696aadeb0e9af50199427afe501f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eafa7425753f66ffa3d735e63e349b58ca3d857f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/97aade6bd8d1b4c21f95665c6ff83c68750d66ef/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a117952dca84a4bb52ddd4301cdd2a14ce165a0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.4/b8f38a249116b66d804a5ca2b14a3459b7913a94/jackson-core-2.7.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b8f38a249116b66d804a5ca2b14a3459b7913a94">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.4_d3cc84a8f38bf6a7d1b75a578394aa022adf86c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/d2235300847e473362af796f98dbf658b4b701a6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_14637db995e5a4479f32306a9adaa4f053848909/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/931169d84002bc85f716fc40d6aee7c2cfcc952b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_daa3eebef1b0593dafabcd6a732ea37155cc3f70/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/bdbc9ddeb3ed802b22727441cf536ab0d90da7cb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2aeb2035c386036264a90ea799e35a67abfdd9c0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/8b15a35d3833318f381026f455c24093f63e4d6c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b9aad0464ff35a98a6f614354ff4a51de91f674/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/3be62428fa4950b9c746025915516aafabb3f308/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3e8da6aef46171bf58d179775f42a7f5779c9b6d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/454afa28c18772afa44d26da9d76b1d784fb6d42/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd4ca48dfec22839246d240a4195abc3d15dd007/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/e70b21f2b9255e7dbbe477d389d8fc4b14cd4c82/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b6801fd3ea6cc29cb4f26a0d99aab02e06156cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/21e28e09f9b7508e9d9dbc982e9732f2b3a0934b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c744b7dfa88364bf175278e2f3eb36d768bb416/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/ab527e19f5941fdbd6346d7019c3b050b3235efa/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_409752d79a870b71acc1f5e4921ef0c622bea30e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/32db96722f4e165b2428cac638f90e676bea412d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca6fcdbbd8ceb1b054e6fa661f80d812e277bc60/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/82a189b313b9e93ccf30c9a177c99d5d50331171/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6afb07ae2cb4bcbff815c36ff55549e835a5ceb0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/3be62428fa4950b9c746025915516aafabb3f308/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ae26f59d175ffb15f258f767f6ef8fe42e4a9fcd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/cbf2533b1a631f3c29d1bd1a4e766a319a3b4244/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a452e794c5089d37a40b97459fa4893f170d286/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/0140d9ec0a2becb19116e4d9bc523e0cab97d88c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b1877230d03a83f5d1baa3e15998d9f2f5d5921/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/3acec014e973a145eb806f74b7d25dd45d071130/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f7e7bb2641ca0b89a45bb44ca3610283623fb26/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/32e4e8686183b7357ec344310e8c6de769a0c46c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4603316728f492ba6b95e03534d2fc474ad1d5df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/295443e899e94fece521b393401c62e7ad560b1d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83b452faedcce40ec4f441ba184b773be269abbb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/bab77278b021aa07147f25eb7f9902d3fdf542cc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac73548efe87582d2f17e5e7f29e969b88df8e1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/6b5be5a8a9c4c15fd0ad88da4887be634571c2e1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca92eacf3d42fa4ba4168e985ac41a9bcd96708b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_6842729ce59e544e12728cb681d3d854b64d195d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/520e437115e69dbaa6a94beb4026715e0455886e/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a2dfcd2c9bf2a1fedc05953aaf676ba09a920a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/85c3cfdc43edd7ee1ed91f7dfc29de05aa2de634/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fca89b37e13ee3ba49953fab51a98306874a4d7b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/fdd9e3ed939402b08159a328aae51ba5281bdd3a/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_65e1dd1a76b44a7b236c5c9813b034cdabff96e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/5a5d910a0865919d80985c19fd95dfe5a9a7b9b2/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4718a60c32e258b78decb9d6c5738ea0d6f64130/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/0349cb8d813060d32527c91dfaf25d24b7a559b4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93e2bb6226cabc6861a55711c69b5c7d9da25d17/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/99e49b1432d5a6626d880c82d4812a8fbdb438e6/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\ba26f3b68d6739ed6136a8f693413b49af3ae6fb\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d60b1d386b42b48709ec8202727ad830159e4fc6/classes.dex" />
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8e1c66169ac50caa38a25a96c0b762bf427710b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/02b05b12f2176c8a091fa2d7bf810b5c2405a122/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\da9e81e20c7dded50a77990019bdb1cdcc46dab1\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7998846f564cdca9719526ffd916b94fd7b0fcba/classes.dex" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_048936d80bd548ec4df51e0f685fac5e57b9da4d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/0349cb8d813060d32527c91dfaf25d24b7a559b4/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-gmail\v1-rev29-1.20.0\f6ee0afa04fde8a0d1bf133f3e61499d85b98dd7\google-api-services-gmail-v1-rev29-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2a16e2d2c35a6757752a3f725d480b316b699e71/classes.dex" />
+        sha1="f6ee0afa04fde8a0d1bf133f3e61499d85b98dd7">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-gmail-v1-rev29-1.20.0_6d96875d047a492ee2e5bb91483dbb29f4b08837\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/32e4e8686183b7357ec344310e8c6de769a0c46c/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\lenovo\.android\build-cache\cdb8db59b954e45a327549d807d2a0e517db034f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_84ef2948be90b530fa573ee7b7f0af42b2cf09df/classes.dex" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e666d974d2726bb4c2f32ec56602df877ed2a77\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/504dca54ecda1ac82006ea834c3fda144a0e6205/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e30dddcbb89e9af138c4b4ba9b11c998101c91a8/classes.dex" />
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.20.0_fb57fb419f6ceba8ec6d103667a7845568b93dd3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/7b60cfd44dab9f2e3c342438c6a5ef295c6014f5/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02c3127e06fa3f19715939be300a3862f07f3ab0/classes.dex" />
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_fb5a5a6f84b0be492cb84f9e7fb4c788c636f7cd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/f251de26a42228db87df711b7b80bc118021029b/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\f6bd407bdb40fa02778e8a3e88638dcc957e914d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9677c7c1227781aaa308158a7d938c4c4a381a1b/classes.dex" />
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8e795c6aa649dcef874f44d29fcb2a50e0c7e48\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/06d36a3affef5054763b50df4f12faca7890601d/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3a99b10089ffdaebf7fc3542c1454d15e6fbec2b">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4f4a80a6ccf2f86a233d6a355ade8355d1a588b/classes.dex" />
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-android-1.20.0_63aeb682689bead2b970057ce39750bfd295a2d7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/ba8748cbbb8aae6d69b8b78d1acaf14560201d5b/output/jars/classes.jar"
+        jar="C:\Users\lenovo\.android\build-cache\84d4d6e134006968cb1df4c67876505a377c945e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_542fe547ce77659a7d9bbb9cce7bfcd404a1b8bf/classes.dex" />
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_708595d54b94483d4e01ec5ccce3053e8bfacffb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/201153e6b80af53ebcea6a1d518783901b50087d/output/jars/classes.jar"
+        jar="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\privacystreams-core\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7ce2bebd38f62418c0fce7a0352d86dc4d7f0373/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/7d6a261db60d738aa77aef54c3ff621a45fce763/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_072b9f21949531d18227182fc973b52248a937e1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/f69ffccb881df255826ae5dc66561dfd8f1e029c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f351407703de00b8a7bd99c70d08873a01170d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/82204e4f38b1e2cc447ff62c2fff8e43aeeb4e7c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b83ace4f25f7de9eb2e095a4b9e0e51eeac53996/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/57828a7421dd28223c5d91fcdd232e0a34fc0aa7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8a314330c052993ef8f44013d35281cdca0f902/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.dropbox.core/dropbox-core-sdk/2.1.1/786a91e07e28575967a2a1656dd4eaaff10587fb/dropbox-core-sdk-2.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="786a91e07e28575967a2a1656dd4eaaff10587fb">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/dropbox-core-sdk-2.1.1_ed5090c6f75a51b4983c4da7ccd84b7db20e6427/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/01735a9334c89cd4abd7d8431aed0e8d6c160947/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4aabf6170f549b6544612b9690b6086e79f0e4bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/54b31fcc25f230cce284a0bf11d829ac90dc5442/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2d5c7f87d51fe75b029f3d6da027f4c4a2609cf0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_a1096709bc39aa2bb6ab8d36f2a5cf6d828e5d58/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/28ee90578f2a9f46f86c93fe197dd47beeb96d41/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b112b0f6899043cdbd8d3acfbd81a1e7fda79ded/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/1e3e8bf1db46aa5ac58a0b27c0e0c9dbbcb235d1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b2e373961d3956f58d769bf0e8d307b1a0869c38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/32db96722f4e165b2428cac638f90e676bea412d/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_46e70f4d1c1538222ad36f075d6cc4a4cfe93af2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/02b05b12f2176c8a091fa2d7bf810b5c2405a122/output/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_660046df3fa8ec917866c894e09e0b0cf7b8df1e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/223e71102a8c15b0134da0ecdb77b7e7cb229853/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_682e6ee2c2bd3874d9ac7920df87e9ff09274e1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/1d9c8b39b10a03cb7a39d853d8b71e6f5bddac87/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_930b70e9fe29d8cf947c1db17c765d084637d4c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/1c7527c5a2a9d85c5f79f0efcb348ed292585013/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a16b8efb699477035cab99d5ac7ec8ab965b738/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fanglinchen/.android/build-cache/37646af0f7a38cba0ed3c6d9722a36dfdedf1206/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="/Users/fanglinchen/Downloads/PrivacyStreams-Android-master/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c2c814c1b90a3b95b863871a6e09521850c7b91/classes.dex" />
+        sha1="35be0e55018e310c38419c54497a00f7e3721257">
+        <dex dex="D:\Important Files\Summer Program\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\4\classes_4365a14aeef75630dfc8db1faa1f148e7a015a22\classes.dex" />
     </item>
 
 </items>

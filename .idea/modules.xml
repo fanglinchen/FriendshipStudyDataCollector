@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FriendshipStudy/FriendshipStudy.iml" filepath="$PROJECT_DIR$/FriendshipStudy/FriendshipStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/FriendshipStudyDataCollector.iml" filepath="$PROJECT_DIR$/FriendshipStudyDataCollector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/privacystreams-core/privacystreams-core.iml" filepath="$PROJECT_DIR$/privacystreams-core/privacystreams-core.iml" />
     </modules>
   </component>
 </project>

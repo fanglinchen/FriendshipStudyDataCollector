@@ -48,7 +48,6 @@ import com.google.android.gms.location.LocationRequest;
 
 import edu.cmu.chimps.friendship_study.pam.PAMActivity;
 import edu.cmu.chimps.friendship_study.reminders.ReminderManager;
-import edu.cmu.chimps.love_study.R;
 
 import static com.github.privacystreams.core.actions.callback.Callbacks.forEach;
 
@@ -63,7 +62,10 @@ public class TrackingService extends Service {
     UQI uqi;
     ReminderManager reminderManager;
 
-
+    @Override
+    public void onCreate(){
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for the
+    }
     private void setupDropbox(){
         Globals.DropboxConfig.accessToken = uqi.getContext()
                 .getResources().getString(R.string.dropbox_access_token);
@@ -127,7 +129,8 @@ public class TrackingService extends Service {
 
             reminderManager.initialize();
         }
-        return START_STICKY;
+        return START_NOT_STICKY;
+//        return START_STICKY;
     }
 
     public void collectLocation(){

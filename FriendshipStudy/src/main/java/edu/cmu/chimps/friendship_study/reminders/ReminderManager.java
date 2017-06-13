@@ -25,7 +25,7 @@ import java.util.Random;
 import edu.cmu.chimps.friendship_study.Constants;
 import edu.cmu.chimps.friendship_study.QualtricsActivity;
 import edu.cmu.chimps.friendship_study.Utils;
-import edu.cmu.chimps.love_study.R;
+import edu.cmu.chimps.friendship_study.R;
 
 
 public class ReminderManager extends BroadcastReceiver {
@@ -77,10 +77,10 @@ public class ReminderManager extends BroadcastReceiver {
 		try {
 			mContext = context;
 			unscheduleAllReminders();
-			Thread.sleep(Duration.minutes(2));
+//			Thread.sleep(Duration.minutes(2));
 			scheduleAllReminders();
+
 			if(intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)){
-				Log.e("onReceive","boot");
 				Utils.startTracking(context);
 			} else if (intent.getAction().equals(KEY_REMINDER_ACTION)) {
 				// Deliver a notification
@@ -116,8 +116,8 @@ public class ReminderManager extends BroadcastReceiver {
 
 		// 20:00 pm everyday.
 		Reminder endOfTheDaySurveyReminder = new Reminder();
-		endOfTheDaySurveyReminder.hour = 20;
-		endOfTheDaySurveyReminder.minute = 0;
+		endOfTheDaySurveyReminder.hour = 17;
+		endOfTheDaySurveyReminder.minute = 34;
 		endOfTheDaySurveyReminder.type = REMINDER_TYPE_DAILY;
 		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Id="+participantID+"&Partner="+partnerInitial;
 		endOfTheDaySurveyReminder.notifText = "Self report";

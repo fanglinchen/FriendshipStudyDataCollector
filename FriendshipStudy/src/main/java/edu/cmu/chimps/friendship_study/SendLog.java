@@ -16,7 +16,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import edu.cmu.chimps.love_study.R;
 
 /**
  * Created by fanglinchen on 3/24/17.
@@ -67,7 +66,7 @@ public class SendLog extends Activity implements View.OnClickListener
 
         // Make file name - file must be saved to external storage or it wont be readable by
         // the email app.
-        String path = Environment.getExternalStorageDirectory() + "/" + "Love_Study/";
+        String path = Environment.getExternalStorageDirectory() + "/" + "Friendship_Study/";
         String fullName = path + "bug"+System.currentTimeMillis()+".txt";
 
         // Extract to file.

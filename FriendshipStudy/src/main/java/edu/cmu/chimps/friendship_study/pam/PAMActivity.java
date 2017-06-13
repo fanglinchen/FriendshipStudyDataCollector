@@ -31,9 +31,11 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.Random;
 
+import edu.cmu.chimps.friendship_study.ExceptionHandler;
 import edu.cmu.chimps.friendship_study.GeneralSettingActivity;
+import edu.cmu.chimps.friendship_study.R;
 import edu.cmu.chimps.friendship_study.Utils;
-import edu.cmu.chimps.love_study.R;
+//Photographic Affect Meter measure user's atitude 4x4 galery the best matched photo to receive his mood
 
 public class PAMActivity extends AppCompatActivity {
 

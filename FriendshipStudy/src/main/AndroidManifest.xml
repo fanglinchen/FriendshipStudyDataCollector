@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.cmu.chimps.love_study">
+    package="edu.cmu.chimps.friendship_study">
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -44,6 +44,10 @@
             </intent-filter>
         </activity>
         <activity android:name="edu.cmu.chimps.friendship_study.GeneralSettingActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="edu.cmu.chimps.friendship_study.ExceptionHandlerActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden">
         </activity>

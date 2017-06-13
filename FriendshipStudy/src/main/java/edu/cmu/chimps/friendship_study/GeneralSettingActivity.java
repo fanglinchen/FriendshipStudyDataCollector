@@ -1,6 +1,8 @@
 package edu.cmu.chimps.friendship_study;
 
 import android.annotation.TargetApi;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,13 +13,13 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
+import android.util.Log;
 import android.widget.Toast;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import edu.cmu.chimps.love_study.R;
-
+// General set up what user would like to store.
 
 public class GeneralSettingActivity extends PreferenceActivity {
 
@@ -29,6 +31,10 @@ public class GeneralSettingActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for the
+        int[] testList = new int[5];
+        int a = testList[5];
+
         context = this;
         // Display the fragment as the main content.
         getFragmentManager().beginTransaction().replace(android.R.id.content,
@@ -47,6 +53,8 @@ public class GeneralSettingActivity extends PreferenceActivity {
            Utils.startTracking(context);
         }
     }
+
+
 
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)

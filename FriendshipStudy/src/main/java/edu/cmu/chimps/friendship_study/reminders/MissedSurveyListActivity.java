@@ -15,8 +15,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import edu.cmu.chimps.friendship_study.Constants;
+import edu.cmu.chimps.friendship_study.ExceptionHandler;
 import edu.cmu.chimps.friendship_study.QualtricsActivity;
-import edu.cmu.chimps.love_study.R;
+import edu.cmu.chimps.friendship_study.R;
 
 
 public class MissedSurveyListActivity extends ListActivity {

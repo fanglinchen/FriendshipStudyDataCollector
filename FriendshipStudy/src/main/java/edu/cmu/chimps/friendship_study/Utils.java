@@ -15,9 +15,8 @@ import com.github.privacystreams.utils.Logging;
 import java.util.Random;
 import java.util.Set;
 
-import edu.cmu.chimps.love_study.R;
+import static edu.cmu.chimps.friendship_study.R.string.shared_preference_key_participant_id;
 
-import static edu.cmu.chimps.love_study.R.string.shared_preference_key_participant_id;
 
 /**
  * Created by fanglinchen on 3/17/17.
