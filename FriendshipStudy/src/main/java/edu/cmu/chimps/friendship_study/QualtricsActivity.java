@@ -39,8 +39,7 @@ public class QualtricsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for the
-
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for unexpected exception
         setContentView(R.layout.qualtrics);
         String surveyUrl = getIntent().getStringExtra(Constants.URL.KEY_SURVEY_URL);
         uqi=new UQI(this);

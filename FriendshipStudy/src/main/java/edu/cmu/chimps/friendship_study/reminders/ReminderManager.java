@@ -116,8 +116,8 @@ public class ReminderManager extends BroadcastReceiver {
 
 		// 20:00 pm everyday.
 		Reminder endOfTheDaySurveyReminder = new Reminder();
-		endOfTheDaySurveyReminder.hour = 17;
-		endOfTheDaySurveyReminder.minute = 34;
+		endOfTheDaySurveyReminder.hour = 15;
+		endOfTheDaySurveyReminder.minute = 40;
 		endOfTheDaySurveyReminder.type = REMINDER_TYPE_DAILY;
 		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Id="+participantID+"&Partner="+partnerInitial;
 		endOfTheDaySurveyReminder.notifText = "Self report";

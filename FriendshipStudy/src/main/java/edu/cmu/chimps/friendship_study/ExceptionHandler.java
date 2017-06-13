@@ -18,7 +18,6 @@ import java.io.StringWriter;
 public class ExceptionHandler implements java.lang.Thread.UncaughtExceptionHandler {
     private final Context myContext;
     private final String LINE_SEPARATOR = "\n";
-    private static boolean happened = false;
     public ExceptionHandler(Context context) {
         myContext = context;
     }
@@ -67,19 +66,3 @@ public class ExceptionHandler implements java.lang.Thread.UncaughtExceptionHandl
     }
 }
 
-
-//            Intent email = new Intent(Intent.ACTION_SEND);
-//            email.putExtra(Intent.EXTRA_EMAIL, new String[]{"mikelmq99@gmail.com"});
-//            email.putExtra(Intent.EXTRA_SUBJECT, "Friendship Study Crash Report");
-//            email.putExtra(Intent.EXTRA_TEXT, errors);
-//            email.setType("message/rfc822");
-//            myContext.startActivity(Intent.createChooser(email, "Choose an Email client for sending error report:"));
-
-//        myContext.startActivityForResult(Intent.createChooser(email, "Choose an Email client for sending error report:"),1);
-
-//        Intent serviceIntent = new Intent(myContext,TrackingService.class);
-//        serviceIntent.setAction(Constants.ACTION.STARTFOREGROUND_ACTION);
-//        PendingIntent pendingIntent = PendingIntent.getActivity(myContext.getBaseContext(), 0, serviceIntent, PendingIntent.FLAG_ONE_SHOT);
-//        AlarmManager mgr = (AlarmManager) myContext.getBaseContext().getSystemService(myContext.ALARM_SERVICE);
-//        mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, pendingIntent);
-//        myContext.startService(serviceIntent);

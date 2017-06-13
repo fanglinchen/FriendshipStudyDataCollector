@@ -71,6 +71,7 @@ public class PAMActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         setTitle("Select a Photo");
         super.onCreate(savedInstanceState);
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for unexpected exception
         setContentView(R.layout.activity_pam);
 
 

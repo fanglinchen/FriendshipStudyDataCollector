@@ -28,6 +28,7 @@ public class MissedSurveyListActivity extends ListActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
+		Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for unexpected exception
 		this.setContentView(R.layout.activity_reminder_list);
 
 		ReminderManager mReminderManager = new ReminderManager(this);

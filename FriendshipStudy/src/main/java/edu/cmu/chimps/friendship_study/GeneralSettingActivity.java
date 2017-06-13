@@ -31,10 +31,7 @@ public class GeneralSettingActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for the
-        int[] testList = new int[5];
-        int a = testList[5];
-
+        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for unexpected exception
         context = this;
         // Display the fragment as the main content.
         getFragmentManager().beginTransaction().replace(android.R.id.content,

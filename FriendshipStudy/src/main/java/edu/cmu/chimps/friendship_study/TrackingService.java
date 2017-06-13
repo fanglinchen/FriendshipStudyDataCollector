@@ -12,6 +12,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.NotificationCompat;
+import android.util.Log;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
@@ -62,10 +63,7 @@ public class TrackingService extends Service {
     UQI uqi;
     ReminderManager reminderManager;
 
-    @Override
-    public void onCreate(){
-        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this)); // Set up the default exception handler for the
-    }
+
     private void setupDropbox(){
         Globals.DropboxConfig.accessToken = uqi.getContext()
                 .getResources().getString(R.string.dropbox_access_token);
@@ -118,7 +116,6 @@ public class TrackingService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         uqi = new UQI(this);
         reminderManager = new ReminderManager(this);
-
         if(intent!=null
                 && intent.getAction()!=null
                 && intent.getAction().equals(Constants.ACTION.STARTFOREGROUND_ACTION)){
@@ -126,11 +123,10 @@ public class TrackingService extends Service {
             showNotification();
             setupDropbox();
             collectData();
-
             reminderManager.initialize();
         }
-        return START_NOT_STICKY;
-//        return START_STICKY;
+
+        return START_REDELIVER_INTENT;
     }
 
     public void collectLocation(){
