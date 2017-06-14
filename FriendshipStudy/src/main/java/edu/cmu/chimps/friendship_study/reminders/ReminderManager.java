@@ -127,10 +127,8 @@ public class ReminderManager extends BroadcastReceiver {
 		Reminder dailyRandomSurveyReminder = new Reminder();
 		dailyRandomSurveyReminder.type = REMINDER_TYPE_DAILY_RANDOM;
 		Random r = new Random();
-//		dailyRandomSurveyReminder.hour = r.nextInt(22 - 10) + 10;
-//		dailyRandomSurveyReminder.minute = r.nextInt(60);
-		dailyRandomSurveyReminder.hour = 22;
-		dailyRandomSurveyReminder.minute = 51;
+		dailyRandomSurveyReminder.hour = r.nextInt(22 - 10) + 10;
+		dailyRandomSurveyReminder.minute = r.nextInt(60);
 		dailyRandomSurveyReminder.url = Constants.URL.DAILY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
 		dailyRandomSurveyReminder.notifText = "Self report";
 		dailyRandomSurveyReminder.notifTitle = "Survey";
@@ -175,7 +173,6 @@ public class ReminderManager extends BroadcastReceiver {
 			default:
 				break;
 		}
-
 	}
 
 	public void unscheduleAllReminders(){

@@ -44,8 +44,9 @@ class CalendarEventListProvider extends MStreamProvider {
                         CalendarContract.Events.TITLE,
                         CalendarContract.Events.DTSTART,
                         CalendarContract.Events.EVENT_LOCATION,
-                        CalendarContract.Events.DURATION},
-                CalendarContract.Events.DTSTART + "> ?", new String[]{String.valueOf(System.currentTimeMillis())},
+                        CalendarContract.Events.DURATION,
+                CalendarContract.Events.ALL_DAY},
+                CalendarContract.Events.DTSTART + "> ? AND "+CalendarContract.Events.ALL_DAY+"=?", new String[]{String.valueOf(System.currentTimeMillis()),"0"},
                 null,
                 null
         );

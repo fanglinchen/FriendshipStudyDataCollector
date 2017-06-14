@@ -39,10 +39,13 @@ public class PSPermissionActivity extends Activity {
                 && getIntent().getSerializableExtra(REQUEST_CODE) != null) {
             requestCode = (int) getIntent().getSerializableExtra(REQUEST_CODE);
             Pair<UQI, Function<Void, Void>> uqiQuery = PermissionUtils.pendingUQIQueries.get(requestCode);
-            requestedPermissions = new HashSet<>(uqiQuery.second.getRequiredPermissions());
-            int labelId = this.getApplicationInfo().labelRes;
-            appName = labelId == 0 ? this.getPackageName() : this.getString(labelId);
-            this.requestPermissions();
+            if(uqiQuery!=null){
+                requestedPermissions = new HashSet<>(uqiQuery.second.getRequiredPermissions());
+                int labelId = this.getApplicationInfo().labelRes;
+                appName = labelId == 0 ? this.getPackageName() : this.getString(labelId);
+                this.requestPermissions();
+            }
+
         } else {
             Intent result = new Intent();
             setResult(Activity.RESULT_OK, result);
