@@ -206,14 +206,14 @@ public class GeneralSettingActivity extends PreferenceActivity {
                             Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.nreu_friends_key), null);
 
                             if(set==null)
-                                set=new HashSet<String>();
+                                set=new HashSet<>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
                             editor.putStringSet(getResources().getString(R.string.nreu_friends_key), set);
 
                             editor.apply();
-                            f5Preference.setEnabled(false);
+                            f6Preference.setEnabled(false);
                             return true;
                         }
                     });

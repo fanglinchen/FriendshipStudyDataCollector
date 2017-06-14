@@ -34,6 +34,7 @@ public class PSAccessibilityService extends AccessibilityService {
     public void onAccessibilityEvent(AccessibilityEvent accessibilityEvent) {
         if (accessibilityEvent == null) return;
         AccessibilityNodeInfo rootNode = getRootInActiveWindow();
+
         for(AccessibilityEventProvider provider : accessibilityEventProviders){
             provider.handleAccessibilityEvent(accessibilityEvent, rootNode, new Date());
         }

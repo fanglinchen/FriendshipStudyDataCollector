@@ -82,7 +82,7 @@ public class TrackingService extends Service {
         Bitmap icon = BitmapFactory.decodeResource(getResources(),
                 R.drawable.heart);
         Notification notification = new NotificationCompat.Builder(this)
-                .setContentTitle("Love study is running")
+                .setContentTitle("Friendship study is running")
                 .setSmallIcon(R.drawable.heart64)
                 .setLargeIcon(Bitmap.createScaledBitmap(icon, 128, 128, false))
                 .setContentIntent(pendingIntent)
@@ -91,8 +91,6 @@ public class TrackingService extends Service {
         startForeground(NOTIFICATION_ID, notification);
 
     }
-
-
 
 
     public void collectData(){
