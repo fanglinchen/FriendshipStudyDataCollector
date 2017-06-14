@@ -3,7 +3,7 @@
     <PreferenceCategory android:title="NAMES">
     <EditTextPreference
         android:key="participantId"
-        android:title="@string/pref_key_participant_id_label"
+        android:title="@string/pref_participant_id_label"
         android:defaultValue="@string/pref_value_default_participant_id"
         android:selectAllOnFocus="true"
         android:inputType="textCapWords"
@@ -11,29 +11,59 @@
         android:singleLine="true"
         android:maxLines="1" />
     <EditTextPreference
-        android:key="partnerInitial"
-        android:title="@string/preference_partner_key"
-        android:defaultValue="@string/pref_value_default_partner_initial"
+        android:key="REUFriend1"
+        android:title="@string/pref_friend1_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
         android:selectAllOnFocus="true"
         android:inputType="textCapWords"
         android:capitalize="words"
         android:singleLine="true"
         android:maxLines="1" />
-    <EditTextPreference android:title="Friend 1"
-        android:key="username1"
-        android:summary="Please provide both first name and last name"/>
-    <EditTextPreference android:title="Friend 2"
-        android:key="username2"
-        android:summary="Please provide both first name and last name"/>
-    <EditTextPreference android:title="Friend 3"
-        android:key="username3"
-        android:summary="Please provide both first name and last name"/>
-    <EditTextPreference android:title="Friend 4"
-        android:key="username4"
-        android:summary="Please provide both first name and last name"/>
-    <EditTextPreference android:title="Friend 5"
-        android:key="username5"
-        android:summary="Please provide both first name and last name"/>
+    <EditTextPreference
+        android:key="REUFriend2"
+        android:title="@string/pref_friend2_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditTextPreference
+        android:key="REUFriend3"
+        android:title="@string/pref_friend3_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditTextPreference
+        android:key="NREUFriend1"
+        android:title="@string/pref_nfriend1_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditTextPreference
+        android:key="NREUFriend2"
+        android:title="@string/pref_nfriend2_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditTextPreference
+        android:key="NREUFriend3"
+        android:title="@string/pref_nfriend3_label"
+        android:defaultValue="@string/pref_value_default_friend_initial"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="DATA">

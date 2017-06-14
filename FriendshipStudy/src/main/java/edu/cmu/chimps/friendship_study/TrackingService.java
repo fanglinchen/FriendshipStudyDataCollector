@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
-import android.os.Environment;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
@@ -18,7 +17,6 @@ import android.widget.Toast;
 
 import com.github.privacystreams.accessibility.BrowserSearch;
 import com.github.privacystreams.accessibility.BrowserVisit;
-//import com.github.privacystreams.accessibility.SerializedAccessibilityNodeInfo;
 import com.github.privacystreams.accessibility.TextEntry;
 import com.github.privacystreams.accessibility.UIAction;
 import com.github.privacystreams.calendar.CalendarEvent;
@@ -27,7 +25,6 @@ import com.github.privacystreams.commons.comparison.Comparators;
 import com.github.privacystreams.commons.item.ItemOperators;
 import com.github.privacystreams.communication.Call;
 import com.github.privacystreams.communication.Contact;
-import com.github.privacystreams.communication.Message;
 import com.github.privacystreams.core.Function;
 import com.github.privacystreams.core.Item;
 import com.github.privacystreams.core.UQI;
@@ -42,15 +39,15 @@ import com.github.privacystreams.environment.LightEnv;
 import com.github.privacystreams.image.Image;
 import com.github.privacystreams.location.Geolocation;
 import com.github.privacystreams.storage.DropboxOperators;
+import com.github.privacystreams.utils.AccessibilityUtils;
+import com.github.privacystreams.utils.Duration;
 import com.github.privacystreams.utils.Globals;
 import com.github.privacystreams.utils.Logging;
-import com.github.privacystreams.utils.Duration;
-import com.google.android.gms.location.LocationRequest;
 
 import edu.cmu.chimps.friendship_study.pam.PAMActivity;
 import edu.cmu.chimps.friendship_study.reminders.ReminderManager;
 
-import static com.github.privacystreams.core.actions.callback.Callbacks.forEach;
+//import com.github.privacystreams.accessibility.SerializedAccessibilityNodeInfo;
 
 /**
  * Created by fanglinchen on 3/16/17.
@@ -62,13 +59,34 @@ public class TrackingService extends Service {
     private static String participantId;
     UQI uqi;
     ReminderManager reminderManager;
+    Runnable collectDataRunnable = new Runnable() {
+        @Override
+        public void run() {
+            collectData();
+        }
+    };
 
+
+    public static Thread collectDataInThread(final Runnable runnable) {
+        final Thread t = new Thread() {
+            @Override
+            public void run() {
+                try {
+                    runnable.run();
+                } finally {
+                    Logging.error("Data Collecting Completed");
+                }
+            }
+        };
+        t.start();
+        return t;
+    }
 
     private void setupDropbox(){
         Globals.DropboxConfig.accessToken = uqi.getContext()
                 .getResources().getString(R.string.dropbox_access_token);
         Globals.DropboxConfig.leastSyncInterval = Duration.minutes(1);
-        Globals.DropboxConfig.onlyOverWifi = false;
+        Globals.DropboxConfig.onlyOverWifi = true;
         participantId = Utils.getParticipantID(this);
         if(participantId==null){
             Toast.makeText(this,"Please fill in your participant id then start tracking. ", Toast.LENGTH_LONG).show();
@@ -86,7 +104,7 @@ public class TrackingService extends Service {
                 R.drawable.heart);
         Notification notification = new NotificationCompat.Builder(this)
                 .setContentTitle("Love study is running")
-                .setSmallIcon(R.drawable.heart)
+                .setSmallIcon(R.drawable.heart64)
                 .setLargeIcon(Bitmap.createScaledBitmap(icon, 128, 128, false))
                 .setContentIntent(pendingIntent)
                 .setOngoing(true)
@@ -100,16 +118,12 @@ public class TrackingService extends Service {
 
         collectLogs();
         collectDeviceStates();
-
         collectLocation();
-//        collectTextEntry();
-//        collectIM();
-//        collectUIAction();
+        collectTextEntry();
+        collectUIAction();
         collectNotifications();
         collectBrowserVisits();
         collectBrowserSearch();
-        collectLightIntensity();
-
         collectDeviceEvent();
     }
 
@@ -122,7 +136,7 @@ public class TrackingService extends Service {
             Logging.debug("start collecting..");
             showNotification();
             setupDropbox();
-            collectData();
+            collectDataInThread(collectDataRunnable);
             reminderManager.initialize();
         }
 
@@ -186,26 +200,26 @@ public class TrackingService extends Service {
                 .forEach(DropboxOperators.<Item>uploadTo(participantId+"/DarkLight.txt",true));
     }
 
-//    public void collectUIAction(){
-//        uqi.getData(UIAction.asUpdates(), Purpose.FEATURE("Love Study UIAction Collection"))
-//                .setField(UIAction.ROOT_VIEW, new Function<Item, SerializedAccessibilityNodeInfo>() {
-//                    @Override
-//                    public SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
-//                        AccessibilityNodeInfo node = input.getValueByField(UIAction.ROOT_VIEW);
-//                        return SerializedAccessibilityNodeInfo.serialize(node);
-//                    }
-//                })
-//                .setField(UIAction.SOURCE_NODE, new Function<Item, SerializedAccessibilityNodeInfo>() {
-//                    @Override
-//                    public SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
-//                        AccessibilityNodeInfo node = input.getValueByField(UIAction.SOURCE_NODE);
-//                        return SerializedAccessibilityNodeInfo.serialize(node);
-//                    }
-//                })
-//                .map(ItemOperators.setField("time_round", ArithmeticOperators.roundUp(UIAction.TIME_CREATED, Duration.minutes(20))))
-//                .localGroupBy("time_round")
-//                .forEach(DropboxOperators.<Item>uploadTo(participantId+"/UIAction.txt",true));
-//    }
+    public void collectUIAction(){
+        uqi.getData(UIAction.asUpdates(), Purpose.FEATURE("Love Study UIAction Collection"))
+                .setField(UIAction.ROOT_VIEW, new Function<Item, AccessibilityUtils.SerializedAccessibilityNodeInfo>() {
+                    @Override
+                    public AccessibilityUtils.SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
+                        AccessibilityNodeInfo node = input.getValueByField(UIAction.ROOT_VIEW);
+                        return AccessibilityUtils.serialize(node);
+                    }
+                })
+                .setField(UIAction.SOURCE_NODE, new Function<Item, AccessibilityUtils.SerializedAccessibilityNodeInfo>() {
+                    @Override
+                    public AccessibilityUtils.SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
+                        AccessibilityNodeInfo node = input.getValueByField(UIAction.SOURCE_NODE);
+                        return AccessibilityUtils.serialize(node);
+                    }
+                })
+                .map(ItemOperators.setField("time_round", ArithmeticOperators.roundUp(UIAction.TIME_CREATED, Duration.minutes(20))))
+                .localGroupBy("time_round")
+                .forEach(DropboxOperators.<Item>uploadTo(participantId+"/UIAction.txt",true));
+    }
 
     public void collectDeviceEvent(){
         uqi.getData(DeviceEvent.asUpdates(),Purpose.FEATURE("Love Study Device Event Collection"))
@@ -222,26 +236,26 @@ public class TrackingService extends Service {
 //                .forEach(DropboxOperators.<Item>uploadTo(participantId+"/IM.txt",true));
 //    }
 //
-//    public void collectTextEntry(){
-//        uqi.getData(TextEntry.asUpdates(), Purpose.FEATURE("Love Study Text Entry Collection"))
-//                .setField(UIAction.ROOT_VIEW, new Function<Item, SerializedAccessibilityNodeInfo>() {
-//                    @Override
-//                    public SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
-//                        AccessibilityNodeInfo node = input.getValueByField(UIAction.ROOT_VIEW);
-//                        return SerializedAccessibilityNodeInfo.serialize(node);
-//                    }
-//                })
-//                .setField(UIAction.SOURCE_NODE, new Function<Item, SerializedAccessibilityNodeInfo>() {
-//                    @Override
-//                    public SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
-//                        AccessibilityNodeInfo node = input.getValueByField(UIAction.SOURCE_NODE);
-//                        return SerializedAccessibilityNodeInfo.serialize(node);
-//                    }
-//                })
-//                .map(ItemOperators.setField("time_round", ArithmeticOperators.roundUp(TextEntry.TIME_CREATED, Duration.minutes(10))))
-//                .localGroupBy("time_round")
-//                .forEach(DropboxOperators.<Item>uploadTo(participantId+"/TextEntry.txt",true));
-//    }
+    public void collectTextEntry(){
+        uqi.getData(TextEntry.asUpdates(), Purpose.FEATURE("Love Study Text Entry Collection"))
+                .setField(UIAction.ROOT_VIEW, new Function<Item, AccessibilityUtils.SerializedAccessibilityNodeInfo>() {
+                    @Override
+                    public AccessibilityUtils.SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
+                        AccessibilityNodeInfo node = input.getValueByField(UIAction.ROOT_VIEW);
+                        return AccessibilityUtils.serialize(node);
+                    }
+                })
+                .setField(UIAction.SOURCE_NODE, new Function<Item, AccessibilityUtils.SerializedAccessibilityNodeInfo>() {
+                    @Override
+                    public AccessibilityUtils.SerializedAccessibilityNodeInfo apply(UQI uqi, Item input) {
+                        AccessibilityNodeInfo node = input.getValueByField(UIAction.SOURCE_NODE);
+                        return AccessibilityUtils.serialize(node);
+                    }
+                })
+                .map(ItemOperators.setField("time_round", ArithmeticOperators.roundUp(TextEntry.TIME_CREATED, Duration.minutes(10))))
+                .localGroupBy("time_round")
+                .forEach(DropboxOperators.<Item>uploadTo(participantId+"/TextEntry.txt",true));
+    }
 
     @Nullable
     @Override

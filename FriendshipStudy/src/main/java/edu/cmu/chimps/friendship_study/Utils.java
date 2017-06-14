@@ -33,10 +33,16 @@ public class Utils {
         return false;
     }
 
+    public static String getParticipantID(Context context){
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
+
+        return sharedPref.getString(context.getResources().getString(shared_preference_key_participant_id),null);
+    }
+
     public static boolean hasStoredPreferences(Context context){
-        return getParticipantID(context)!=null
-                && getPartnerInitial(context) !=null
-                && randomlySelectFriendInitial(context) !=null;
+        return getParticipantID(context)!=null&&
+                randomlySelectFriendInitial(true,context)!=null
+                && randomlySelectFriendInitial(false,context) !=null;
     }
 
     public static boolean isNotificationServiceRunning(Context context){
@@ -78,28 +84,20 @@ public class Utils {
         return isMyServiceRunning(context, TrackingService.class);
     }
 
-    public static String getParticipantID(Context context){
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-
-        return sharedPref.getString(context.getResources().getString(shared_preference_key_participant_id),null);
-    }
-
-    public static String getPartnerInitial(Context context){
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-
-        return sharedPref.getString(context.getResources().getString(R.string.shared_preference_key_partner_initial),null);
-    }
-
     public static void startTracking(Context context){
         Intent serviceIntent = new Intent(context,TrackingService.class);
         serviceIntent.setAction(Constants.ACTION.STARTFOREGROUND_ACTION);
         context.startService(serviceIntent);
     }
 
-    public static String randomlySelectFriendInitial(Context context){
+    public static String randomlySelectFriendInitial(boolean reu, Context context){
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
+        Set<String> set;
+        if(reu)
+            set = sharedPref.getStringSet(context.getResources().getString(R.string.reu_friends_key),null);
+        else
+            set = sharedPref.getStringSet(context.getResources().getString(R.string.nreu_friends_key),null);
 
-        Set<String> set = sharedPref.getStringSet(context.getResources().getString(R.string.friends_key),null);
         if(set==null){
             return null;
         }

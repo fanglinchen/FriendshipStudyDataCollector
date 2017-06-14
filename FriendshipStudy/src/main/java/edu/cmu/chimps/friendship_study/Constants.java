@@ -13,7 +13,7 @@ public class Constants {
     public interface URL {
         String DAILY_EMA_URL = "https://cmu.ca1.qualtrics.com/SE/?SID=SV_9AEiA5bDpzY8LFb";
         String END_OF_THE_DAY_EMA_URL = "https://cmu.ca1.qualtrics.com/SE/?SID=SV_4HqYNC2zVpZiZnL";
-        String WEEKLY_EMA_URL = "https://cmu.ca1.qualtrics.com/SE/?SID=SV_9AEiA5bDpzY8LFb";
+        String WEEKLY_EMA_URL = "https://cmu.ca1.qualtrics.com/SE/?SID=SV_7U48zWnJLVvUsQZ";
 
         String KEY_SURVEY_URL = "qualtrics_survey_url";
     }

@@ -7,19 +7,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
-import com.dropbox.core.DbxWebAuth;
 import com.github.privacystreams.accessibility.BaseAccessibilityEvent;
 import com.github.privacystreams.commons.comparison.Comparators;
 import com.github.privacystreams.core.Callback;
 import com.github.privacystreams.core.Item;
 import com.github.privacystreams.core.UQI;
 import com.github.privacystreams.core.purposes.Purpose;
-import com.github.privacystreams.utils.AccessibilityUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +33,7 @@ import edu.cmu.chimps.friendship_study.pam.PAMActivity;
 public class QualtricsActivity extends AppCompatActivity {
     private boolean isRandomized = false;
     public UQI uqi;
-    private final String endOfSurveyResrouceID = "EndOfSurvey";
+    private final String endOfSurveyResourceID = "EndOfSurvey";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +49,8 @@ public class QualtricsActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if(url.contains(Constants.URL.DAILY_EMA_URL)){
+                Log.e("url",url);
+                if(url.split("/")[url.split("/").length-1].contains(Constants.URL.DAILY_EMA_URL.split("=")[1])){
                     isRandomized = true;
                 }
                 view.loadUrl(url);
@@ -67,10 +66,12 @@ public class QualtricsActivity extends AppCompatActivity {
                         AccessibilityNodeInfo rootView =
                                 input.getValueByField(BaseAccessibilityEvent.ROOT_VIEW);
                         List<AccessibilityNodeInfo> list = preOrderTraverse(rootView);
-                        if(!list.isEmpty()) {
+                        if(list!=null&&!list.isEmpty()) {
                             for (AccessibilityNodeInfo node : list) {
                                 if (node.getViewIdResourceName() != null) {
-                                    if (node.getViewIdResourceName().equals(endOfSurveyResrouceID)) {
+                                    if (node.getViewIdResourceName().equals(endOfSurveyResourceID)) {
+                                        Toast.makeText(QualtricsActivity.this, "Thank you for your submission!",
+                                                Toast.LENGTH_SHORT).show();
                                         finish();
                                     }
                                 }
@@ -88,8 +89,10 @@ public class QualtricsActivity extends AppCompatActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if(isRandomized)
-            startActivity(new Intent(this,PAMActivity.class));
+        if(isRandomized){
+            Log.e("isRandomized","isRandomized");
+            startActivity(new Intent(QualtricsActivity.this,PAMActivity.class));
+        }
     }
     public static List<AccessibilityNodeInfo> preOrderTraverse(AccessibilityNodeInfo root){
         if(root == null)

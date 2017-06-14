@@ -1,17 +1,11 @@
 <resources>
     <string name="app_name">Friendship Study</string>
 
-    <string name="friends_key">Friends_Initial</string>
-
+    <string name="reu_friends_key">REU_Initial</string>
+    <string name="nreu_friends_key">NREU_Initial</string>
 
     <string name="service_name">Love Study is Collecting Data</string>
     <string name="service_status_monitor">Love Study is Collecting Data</string>
-    <!--omh schema settings -->
-    <string name="schema_namespace">cornell</string>
-    <string name="schema_name">photographic-affect-meter-scores</string>
-    <string name="schema_version">1.0</string>
-    <string name="acquisition_source_name">PAM-Android</string>
-    <string name="acquisition_modality">self-reported</string>
 
     <!-- Strings related to Settings -->
 
@@ -26,14 +20,21 @@
     <string name="shared_preference_key_participant_id">key_participant</string>
     <string name="shared_preference_key_partner_initial">key_partner</string>
 
-    <string name="pref_key_participant_id_label">Participant ID</string>
+    <string name="pref_participant_id_label">Participant ID</string>
     <string name="pref_value_default_participant_id">P00</string>
 
+    <string name="pref_friend1_label">REU Friend 1</string>
+    <string name="pref_friend2_label">REU Friend 2</string>
+    <string name="pref_friend3_label">REU Friend 3</string>
 
-    PREF_SAVED_REMINDERS
+
+    <string name="pref_nfriend1_label">Non-REU Friend 1</string>
+    <string name="pref_nfriend2_label">Non-REU Friend 2</string>
+    <string name="pref_nfriend3_label">Non-REU Friend 3</string>
+
 
     <string name="preference_partner_key">Partner</string>
-    <string name="pref_value_default_partner_initial">AB</string>
+    <string name="pref_value_default_friend_initial">AB</string>
 
 
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>

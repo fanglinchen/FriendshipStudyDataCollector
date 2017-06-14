@@ -43,17 +43,17 @@ public class ReminderManager extends BroadcastReceiver {
 	private static final String PREF_SAVED_REMINDERS = "preference_saved_reminders";
 
 
-	private String participantID;
-	private String partnerInitial;
+	private String reuInitial;
+	private String nreuInitial;
 
-	private static Context mContext;
+	private Context mContext;
 
 	public void deliverNotification(Intent intent){
 		Reminder reminder = this.getReminder(intent.getExtras().getInt(KEY_REMINDER_ID));
 		Intent surveyIntent = new Intent();
 		surveyIntent.setClass(mContext, QualtricsActivity.class);
 		surveyIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // this is required for calling an activity when outside of an activity
-		surveyIntent.putExtra(Constants.URL.KEY_SURVEY_URL,reminder.url+"&Source="+ Utils.randomlySelectFriendInitial(mContext));
+		surveyIntent.putExtra(Constants.URL.KEY_SURVEY_URL,reminder.url);
 		surveyIntent.putExtra(KEY_REMINDER_ID,reminder.id);
 
 		PendingIntent contentIntent = PendingIntent.getActivity(mContext.getApplicationContext(),
@@ -98,8 +98,8 @@ public class ReminderManager extends BroadcastReceiver {
 
 	public ReminderManager(Context context){
 		mContext = context;
-		participantID = Utils.getParticipantID(context);
-		partnerInitial = Utils.getPartnerInitial(context);
+		reuInitial = Utils.randomlySelectFriendInitial(true,context);
+		nreuInitial = Utils.randomlySelectFriendInitial(false,context);
 
 	}
 	// Only called once.
@@ -116,10 +116,10 @@ public class ReminderManager extends BroadcastReceiver {
 
 		// 20:00 pm everyday.
 		Reminder endOfTheDaySurveyReminder = new Reminder();
-		endOfTheDaySurveyReminder.hour = 15;
-		endOfTheDaySurveyReminder.minute = 40;
+		endOfTheDaySurveyReminder.hour = 20;
+		endOfTheDaySurveyReminder.minute = 0;
 		endOfTheDaySurveyReminder.type = REMINDER_TYPE_DAILY;
-		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Id="+participantID+"&Partner="+partnerInitial;
+		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
 		endOfTheDaySurveyReminder.notifText = "Self report";
 		endOfTheDaySurveyReminder.notifTitle = "Survey";
 
@@ -127,9 +127,11 @@ public class ReminderManager extends BroadcastReceiver {
 		Reminder dailyRandomSurveyReminder = new Reminder();
 		dailyRandomSurveyReminder.type = REMINDER_TYPE_DAILY_RANDOM;
 		Random r = new Random();
-		dailyRandomSurveyReminder.hour = r.nextInt(22 - 10) + 10;
-		dailyRandomSurveyReminder.minute = r.nextInt(60);
-		dailyRandomSurveyReminder.url = Constants.URL.DAILY_EMA_URL+"&Id="+participantID+"&Partner="+partnerInitial;
+//		dailyRandomSurveyReminder.hour = r.nextInt(22 - 10) + 10;
+//		dailyRandomSurveyReminder.minute = r.nextInt(60);
+		dailyRandomSurveyReminder.hour = 22;
+		dailyRandomSurveyReminder.minute = 51;
+		dailyRandomSurveyReminder.url = Constants.URL.DAILY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
 		dailyRandomSurveyReminder.notifText = "Self report";
 		dailyRandomSurveyReminder.notifTitle = "Survey";
 
@@ -138,7 +140,7 @@ public class ReminderManager extends BroadcastReceiver {
 		weeklySurveyReminder.hour = 20;
 		weeklySurveyReminder.minute = 0;
 		weeklySurveyReminder.type = REMINDER_TYPE_WEEKLY;
-		weeklySurveyReminder.url = Constants.URL.WEEKLY_EMA_URL+"&Id="+participantID+"&Partner="+partnerInitial;
+		weeklySurveyReminder.url = Constants.URL.WEEKLY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
 		weeklySurveyReminder.notifText = "Self report";
 		weeklySurveyReminder.notifTitle = "Survey";
 

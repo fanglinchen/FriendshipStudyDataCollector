@@ -1,8 +1,6 @@
 package edu.cmu.chimps.friendship_study;
 
 import android.annotation.TargetApi;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,7 +11,6 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.util.HashSet;
@@ -23,7 +20,7 @@ import java.util.Set;
 
 public class GeneralSettingActivity extends PreferenceActivity {
 
-    private static Context context;
+    private Context context;
     private static boolean tracking_clicked;
 
 
@@ -45,7 +42,9 @@ public class GeneralSettingActivity extends PreferenceActivity {
             startActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
         }
 
-        if(!Utils.isTrackingEnabled(context) && tracking_clicked && Utils.isNotificationServiceRunning(context)){
+        if(!Utils.isTrackingEnabled(context)
+                && tracking_clicked
+                && Utils.isNotificationServiceRunning(context)){
            Toast.makeText(context,"Tracking Started!", Toast.LENGTH_LONG).show();
            Utils.startTracking(context);
         }
@@ -69,15 +68,14 @@ public class GeneralSettingActivity extends PreferenceActivity {
                     .setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    if(!Utils.isAccessibilitySettingsOn(context)){
+                    if(!Utils.isAccessibilitySettingsOn(MyApplication.getContext())){
                         tracking_clicked = true;
                         startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
 
                     }
-
                     else{
-                        Utils.startTracking(context);
-                        Toast.makeText(context,"Tracking Started!", Toast.LENGTH_LONG).show();
+                        Utils.startTracking(MyApplication.getContext());
+                        Toast.makeText(MyApplication.getContext(),"Tracking Started!", Toast.LENGTH_LONG).show();
                     }
                     return false;
                 }
@@ -90,7 +88,7 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
 
                             SharedPreferences.Editor editor = sharedPref.edit();
                             editor.putString(getString(R.string.shared_preference_key_participant_id),
@@ -101,40 +99,23 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         }
             });
 
-            final Preference partnerInitialPreference = findPreference("partnerInitial");
-            partnerInitialPreference
-                    .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
-                        @Override
-                        public boolean onPreferenceChange(Preference preference,
-                                                          Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-
-                            SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putString(getString(R.string.shared_preference_key_partner_initial),
-                                    newValue.toString());
-                            editor.apply();
-                            partnerInitialPreference.setEnabled(false);
-                            return true;
-                        }
-                    });
-
-            final Preference f1Preference = findPreference("username1");
+            final Preference f1Preference = findPreference("REUFriend1");
             f1Preference
                     .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.friends_key), null);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.reu_friends_key), null);
 
                             if(set==null)
                                 set=new HashSet<String>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putStringSet(getResources().getString(R.string.friends_key), set);
+                            editor.putStringSet(getResources().getString(R.string.reu_friends_key), set);
 
                             editor.apply();
                             f1Preference.setEnabled(false);
@@ -142,22 +123,22 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         }
                     });
 
-            final Preference f2Preference = findPreference("username2");
+            final Preference f2Preference = findPreference("REUFriend2");
             f2Preference
                     .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.friends_key), null);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.reu_friends_key), null);
 
                             if(set==null)
                                 set=new HashSet<String>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putStringSet(getResources().getString(R.string.friends_key), set);
+                            editor.putStringSet(getResources().getString(R.string.reu_friends_key), set);
 
                             editor.apply();
                             f2Preference.setEnabled(false);
@@ -165,22 +146,22 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         }
                     });
 
-            final Preference f3Preference = findPreference("username3");
+            final Preference f3Preference = findPreference("REUFriend3");
             f3Preference
                     .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.friends_key), null);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.reu_friends_key), null);
 
                             if(set==null)
                                 set=new HashSet<String>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putStringSet(getResources().getString(R.string.friends_key), set);
+                            editor.putStringSet(getResources().getString(R.string.reu_friends_key), set);
 
                             editor.apply();
                             f3Preference.setEnabled(false);
@@ -188,22 +169,22 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         }
                     });
 
-            final Preference f4Preference = findPreference("username4");
+            final Preference f4Preference = findPreference("NREUFriend1");
             f4Preference
                     .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.friends_key), null);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.nreu_friends_key), null);
 
                             if(set==null)
                                 set=new HashSet<String>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putStringSet(getResources().getString(R.string.friends_key), set);
+                            editor.putStringSet(getResources().getString(R.string.nreu_friends_key), set);
 
                             editor.apply();
                             f4Preference.setEnabled(false);
@@ -211,22 +192,44 @@ public class GeneralSettingActivity extends PreferenceActivity {
                         }
             });
 
-            final Preference f5Preference = findPreference("username5");
+            final Preference f5Preference = findPreference("NREUFriend2");
             f5Preference
                     .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 
                         @Override
                         public boolean onPreferenceChange(Preference preference,
                                                           Object newValue) {
-                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.friends_key), null);
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.nreu_friends_key), null);
 
                             if(set==null)
                                 set=new HashSet<String>();
 
                             set.add(newValue.toString());
                             SharedPreferences.Editor editor = sharedPref.edit();
-                            editor.putStringSet(getResources().getString(R.string.friends_key), set);
+                            editor.putStringSet(getResources().getString(R.string.nreu_friends_key), set);
+
+                            editor.apply();
+                            f5Preference.setEnabled(false);
+                            return true;
+                        }
+                    });
+            final Preference f6Preference = findPreference("NREUFriend3");
+            f6Preference
+                    .setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+
+                        @Override
+                        public boolean onPreferenceChange(Preference preference,
+                                                          Object newValue) {
+                            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(MyApplication.getContext());
+                            Set<String> set = sharedPref.getStringSet(getResources().getString(R.string.nreu_friends_key), null);
+
+                            if(set==null)
+                                set=new HashSet<String>();
+
+                            set.add(newValue.toString());
+                            SharedPreferences.Editor editor = sharedPref.edit();
+                            editor.putStringSet(getResources().getString(R.string.nreu_friends_key), set);
 
                             editor.apply();
                             f5Preference.setEnabled(false);

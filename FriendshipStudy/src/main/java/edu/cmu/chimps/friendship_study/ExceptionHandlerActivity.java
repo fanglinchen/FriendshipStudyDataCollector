@@ -1,12 +1,9 @@
 package edu.cmu.chimps.friendship_study;
 
 import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 
 /**
  * Created by lenovo on 2017/6/12.
@@ -19,7 +16,7 @@ public class ExceptionHandlerActivity extends Activity {
         Intent intent = getIntent();
         String error = intent.getStringExtra("ERROR");
         Intent send = new Intent(Intent.ACTION_SENDTO);
-        String uriText = "mailto:" + Uri.encode("mikelmq99@gmail.com") +
+        String uriText = "mailto:" + Uri.encode("fanglin@cmu.edu") +
                 "?subject=" + Uri.encode("Friendship Study Crash Report") +
                 "&body=" + Uri.encode(error);
         Uri uri = Uri.parse(uriText);

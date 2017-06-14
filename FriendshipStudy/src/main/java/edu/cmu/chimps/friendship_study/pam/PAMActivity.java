@@ -121,9 +121,6 @@ public class PAMActivity extends AppCompatActivity {
             case R.id.general_config:
                 startActivity(new Intent(this,GeneralSettingActivity.class));
                 return true;
-//            case R.id.missed_surveys:
-//                startActivity(new Intent(this, MissedSurveyListActivity.class));
-//                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -142,6 +139,8 @@ public class PAMActivity extends AppCompatActivity {
             return null;
         }
     }
+
+
     private String onSubmit() {
         try {
 
