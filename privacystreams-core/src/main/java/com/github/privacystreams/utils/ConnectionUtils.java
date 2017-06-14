@@ -3,9 +3,6 @@ package com.github.privacystreams.utils;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.wifi.SupplicantState;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
 import android.util.Log;
 
 import com.github.privacystreams.core.UQI;
@@ -25,11 +22,12 @@ public class ConnectionUtils {
      */
     // @RequiresPermission(value = Manifest.permission.ACCESS_WIFI_STATE)
     public static boolean isWifiConnected(UQI uqi) {
-        WifiManager wifiManager = (WifiManager) uqi.getContext().getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        if (wifiManager == null || !wifiManager.isWifiEnabled()) return false;
-        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
-        if (wifiInfo == null || wifiInfo.getNetworkId() == -1) return false;
-        return wifiInfo.getSupplicantState() == SupplicantState.ASSOCIATED;
+        ConnectivityManager connectionManager = (ConnectivityManager) uqi.getContext().getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+        return connectionManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnected();
+//        WifiManager wifiManager = (WifiManager) uqi.getContext().getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+//        if (wifiManager == null || !wifiManager.isWifiEnabled()) return false;
+//        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+//        return !(wifiInfo == null || wifiInfo.getNetworkId() == -1) && wifiInfo.getSupplicantState() == SupplicantState.ASSOCIATED;
     }
 
     /* Checks whether the device currently has a network connection.

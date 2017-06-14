@@ -11,7 +11,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.NotificationCompat;
-import android.view.View;
+import android.util.Log;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
@@ -59,30 +59,7 @@ public class TrackingService extends Service {
     private static String participantId;
     UQI uqi;
     ReminderManager reminderManager;
-    Runnable collectDataRunnable = new Runnable() {
-        @Override
-        public void run() {
-            collectData();
-        }
-    };
 
-
-    public static Thread collectDataInThread(final Runnable runnable) {
-        final Thread t = new Thread() {
-            @Override
-            public void run() {
-                try {
-                    runnable.run();
-                }
-
-                finally {
-                    Logging.error("Data Collecting Completed");
-                }
-            }
-        };
-        t.start();
-        return t;
-    }
 
     private void setupDropbox(){
         Globals.DropboxConfig.accessToken = uqi.getContext()
@@ -115,16 +92,6 @@ public class TrackingService extends Service {
 
     }
 
-    public void connectingDataInBackgroundThread() {
-        // do something long
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                collectData();
-            }
-        };
-        new Thread(runnable).start();
-    }
 
 
 
@@ -151,8 +118,30 @@ public class TrackingService extends Service {
             Logging.debug("start collecting..");
             showNotification();
             setupDropbox();
-//            connectingDataInBackgroundThread();
-            collectDataInThread(collectDataRunnable);
+//            new Thread()
+//            {
+//                public void run() {
+//                    collectData();
+//                }
+//            }.start();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+
+
+//                    //Your logic that service will perform will be placed here
+//                    //In this example we are just looping and waits for 1000 milliseconds in each loop.
+//                    for (int i = 0; i < 5; i++) {
+//                        try {
+//                            Thread.sleep(10000);
+//                        } catch (Exception e) {
+//                        }
+//
+//                    }
+                    collectData();
+
+                }
+            }).start();
             reminderManager.initialize();
         }
 

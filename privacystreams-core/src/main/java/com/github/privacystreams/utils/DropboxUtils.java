@@ -2,7 +2,6 @@ package com.github.privacystreams.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.util.Log;
 
 import com.dropbox.core.DbxException;
 import com.dropbox.core.DbxRequestConfig;
@@ -74,8 +73,14 @@ public class DropboxUtils {
                 Set<String> waitingList = pref.getStringSet(DROPBOX_WAITING_LIST, new HashSet<String>());
 
                 if (waitingList.isEmpty()) return;
-                if (Globals.DropboxConfig.onlyOverWifi && !ConnectionUtils.isWifiConnected(uqi))
+                if (Globals.DropboxConfig.onlyOverWifi && !ConnectionUtils.isWifiConnected(uqi)){
+                    Logging.debug("not wifi");
                     return;
+                }
+                else{
+                    Logging.debug("wifi now");
+                }
+
 
                 syncing = true;
                 // Create Dropbox client
