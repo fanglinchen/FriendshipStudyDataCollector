@@ -2,7 +2,6 @@ package edu.cmu.chimps.friendship_study;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
@@ -10,7 +9,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
-import android.provider.Settings;
 import android.widget.Toast;
 
 import java.util.HashSet;
@@ -38,19 +36,7 @@ public class GeneralSettingActivity extends PreferenceActivity {
     @Override
     public void onResume(){
         super.onResume();
-        if(!Utils.isNotificationServiceRunning(context)){
-            startActivity(new Intent("android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"));
-        }
-
-        if(!Utils.isTrackingEnabled(context)
-                && tracking_clicked
-                && Utils.isNotificationServiceRunning(context)){
-           Toast.makeText(context,"Tracking Started!", Toast.LENGTH_LONG).show();
-           Utils.startTracking(context);
-        }
     }
-
-
 
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
@@ -68,15 +54,10 @@ public class GeneralSettingActivity extends PreferenceActivity {
                     .setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    if(!Utils.isAccessibilitySettingsOn(MyApplication.getContext())){
-                        tracking_clicked = true;
-                        startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
 
-                    }
-                    else{
-                        Utils.startTracking(MyApplication.getContext());
-                        Toast.makeText(MyApplication.getContext(),"Tracking Started!", Toast.LENGTH_LONG).show();
-                    }
+                    Utils.startTracking(MyApplication.getContext());
+                    Toast.makeText(MyApplication.getContext(),"Tracking Started!", Toast.LENGTH_LONG).show();
+
                     return false;
                 }
             });

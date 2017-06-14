@@ -11,7 +11,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.NotificationCompat;
-import android.util.Log;
+import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
@@ -73,7 +73,9 @@ public class TrackingService extends Service {
             public void run() {
                 try {
                     runnable.run();
-                } finally {
+                }
+
+                finally {
                     Logging.error("Data Collecting Completed");
                 }
             }
@@ -113,6 +115,19 @@ public class TrackingService extends Service {
 
     }
 
+    public void connectingDataInBackgroundThread() {
+        // do something long
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                collectData();
+            }
+        };
+        new Thread(runnable).start();
+    }
+
+
+
     public void collectData(){
         Logging.debug("Collecting Data..");
 
@@ -136,6 +151,7 @@ public class TrackingService extends Service {
             Logging.debug("start collecting..");
             showNotification();
             setupDropbox();
+//            connectingDataInBackgroundThread();
             collectDataInThread(collectDataRunnable);
             reminderManager.initialize();
         }
