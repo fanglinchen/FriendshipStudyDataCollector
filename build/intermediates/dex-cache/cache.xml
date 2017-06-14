@@ -3,12 +3,696 @@
 
     <item
         is-multidex="true"
-        jar="/Users/fanglinchen/Documents/FriendshipStudyDataCollector/privacystreams-core/build/intermediates/bundles/default/classes.jar"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.3\56498efd17752898cfcc3868c1b6211a07b12b8f\joda-time-2.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="79c7f6d7a6be4abafe226376f0f323567ba3883c">
-        <dex dex="/Users/fanglinchen/Documents/FriendshipStudyDataCollector/FriendshipStudy/build/intermediates/transforms/dex/debug/folders/1000/4/classes_e73417bffb7a834c72ae1c8dfb56d29a05250144/classes.dex" />
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.3_ff1881bf7711a5b09a2917f64baafe5038dd44db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\ff188325ad15b95339d152a88038d118b1183201\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8fdf15d202000492aefe43092b21af5332df0178">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62a2c435cc46faf141ada6fe05f1896d25131a60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_14cba5fdc8327447273364c73bb59a6a0c6b389c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\5c2020f9ce9cfccba1ab5025d686b68b58f5cb73\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a75030f7a3f5f96a15acdab44829bed93154d09f">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f19b1b4e496eb0300ef354018cba4af38fe6faa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-gmail\v1-rev29-1.20.0\f6ee0afa04fde8a0d1bf133f3e61499d85b98dd7\google-api-services-gmail-v1-rev29-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6ee0afa04fde8a0d1bf133f3e61499d85b98dd7">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-gmail-v1-rev29-1.20.0_80a666465d7ab59610ffbc0f4b6e48721ef74978\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\21a66b24a59f447c5398c71526dfacd60de7a1e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="acc7a846f0bc56ecccda535fc919fd338b2b3e2c">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c865de2d6110c3027348e168a83deb75ddb0873\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.4\b8f38a249116b66d804a5ca2b14a3459b7913a94\jackson-core-2.7.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b8f38a249116b66d804a5ca2b14a3459b7913a94">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.7.4_a620d0c846ebe88ce8aef2e4295600b4c96245f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\1744310dc7a52b5e02b1705a649ae2046a51a44d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69a7dbb74aa20850163924847ebc713f11cfb061\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.dropbox.core\dropbox-core-sdk\2.1.1\786a91e07e28575967a2a1656dd4eaaff10587fb\dropbox-core-sdk-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="786a91e07e28575967a2a1656dd4eaaff10587fb">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\dropbox-core-sdk-2.1.1_02877c5d1efddff94b55389dc280a80f0e963d45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\7e218696171ac9fca0f5db264b337ae7e9d6c5e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7da934e45823af03482ac8b0ee0cb963f51f3135\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-13.0_a6d68de9ce073556541b9f745e218f0de39ba3a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\5aaf2fba902524ff07c26420315266ef671685b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5712f60d0cc91092b2c04ced71dff31c09a3076\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\92ce42bdbfbb2e3ee0f133c75c2a918a9d6928d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36dcba89a7d572a6466c39f689d59d7834f3ae35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.20.0\2408070b2abec043624d35b35e30450f1b663858\google-http-client-jackson2-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.20.0_d4bee432ed9e277af0db587bab1587933d9ff4f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\3f28d03364afe5c7efd96c3e6e0c4122c3cfc367\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9c8affe1f564ec0d063be68469d26e972455217">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7be0e29366db9523d031e6f1b960811eb0c7c93d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\85465de57762d2a65a15574d903e8ac0251ecf26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6c8a4af7cf76d958c76ed7682f39e4b386b69305">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_962b6dc2b50f30b315d02852d5d0eb186e2f8180\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\1f38e38109f008a34a2406cce332c59a991266c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a5e27a53635d2e691a0adfd7f409b6edad73795\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\d3c5bc29e3802287472ecaa83c67105f53a533ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9bea6aecfda40484cee1996a804e91d6832f478\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\f7539be92e24c9ea2992a93fb9374494ba8903cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2188ba20a948ec6e7fa671b818c69d876d8bf32d">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa258f816a62150f451f8c0be2a3ed96f15f2106\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\44ac7da41ef74964d15fe2b57fa2035d506ae2b2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69b5f1cf6b748039f1e2972926e63ac4e4bf4da7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\e0a12a952e9c58ba5027f0e1ed6b0b63a641b4e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b8ad09b76c4ffaedf443ca54bc2418760870689">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c06c470122211f0a60d26e474e67559a5217f8a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\39f5eea5c0e8ac760403a92a2e4550f061bcdd8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_73919f421b26098a5248f369413c7097f9987b46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\cae9e10e2ae2a9d96cb868d96fe594959db4556b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93094dbb2af50e23339620bebd7b4b6161410edb">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ace12b830cc748109417a1b905a664573da35ae4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\2d80164240f79f776e6062d2753ebffd6e369632\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="54933c89f90a872aa342004e82b23e776fe12736">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88fea28bfd157bb7e49cc08027054e791b012596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.20.0\1d086ac5756475ddf451af2e2df6e288d18608ca\google-oauth-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.20.0_b05a0adf4b6048e7c3fae3387d8022b9c219fb3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\1744310dc7a52b5e02b1705a649ae2046a51a44d\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_0a39d19d231c4bac40ea3c0a856560cb636e913d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-android-1.20.0_a6735e88592a34b89779005f8163189b1dfbd199\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\ce7b096d189f12685ece8d2018384f5c1aa8a692\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c76804333008c855433cad5cfd1256e86045e97b">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f8cc2383648a58ffde5b102cd21b51d700ee00f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.20.0\d3e66209ae9e749b2d6833761e7885f60f285564\google-api-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.20.0_7b044f44393023fecf9f0ef6597181f59505b3b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\1c8304e978c18cfee1201e98a139ce61eef9d9e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="29d9916bd9ad8406a53edbafbbce5e18943aa882">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_839f3cd2d05063b057d5a9836cf86e404a5d6846\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\dd27745824cfb8b53cc5813d994676b4ae823648\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e2f65aca8838803244e07452909e738b5107e665\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\b05544a6b37824f249513c7379a5f3803b8f2f28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d2d27edb6fbc12fdf28008cdff920e66f08cf159">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5eeffd4c03fbd25cf55527c556d832520356ca99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\177a684d623d3ae0ed5cc0ab2b2ca241bcbf762b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15d2a23bc08ce4e02098dbfd25b2df1367fcf3b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\9ed97d05ef0ef6c227763fe4f78637c0d1ac52d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e0f082141b7aa90aab5d3a47ab09b0edc958f6b">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a1eeff0cc2bcfc1c944ec33abf8eb836e87b65d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\8d5adfb7222faf31ea5c566fa44b807af3f2bcb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2ed7ba48801a0a361727833ade3b6cf096968cc0">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c341b71df6b288d9d4b0c16096cc22629bf3b01e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\6ad73c8d3e2761f79d921ada439b036bc42b5c4d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90236fba9ac4dfb1f4196e231aab964522143ef6">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c76d5ee2cbab50d8398ff25acbdd48f3ef396c4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\30240ac8cf3e0e76ea2ae770d12a7304d258c6af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="701c58abf53f488bc5bb0162f1305a38a32fb5f1">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55ed74ec7b537decd3b39c5f0066f603bb5e7b72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\d0f8b4339379092970b06073656f2de75252c615\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3045eeb05e052c2d092dc82424c61853abaaeb48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\213bbb5dd4b83bf5d878668dee4aaaab0aaaacfa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dde643ce80b967f869e9b111255815ba4d391653">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e00210badf0c757a698cac5f1a8e8482ed5fe530\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_6fa14fb68d1375abf2eeb4649fbb01360d3e2078\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_ef1168ae9586117249c5749930597ec138415f83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\2dffa17ca5865f9dd4c2fa64d045eb5aaac3ac64\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61592cb97a8ceb7bfc39ff9281314da70131340b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-android-1.20.0_a2c3cbae178d47e08e25bdb044215895bf412d72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\f9071fb2cc3449f69230e94032bdfa108e1ea333\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_216d9fed2273b2a34b28b09091dff0f776cd6b6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\700667902184ff7956a462e4d044b10db8859077\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d66b8668122393a15c90471c5c974c25439d193a">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58b568af1d97fc550b0fe55f7ae66ed22672e2f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\fe076ba10a5ffcebc7d345289f3e5bbea94310f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98ac18f891a8279ae57c4771cbf4a2a65f95b04c">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_743b13c10361c7e8b0d5b473409987a8a221f1cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\791ac9f7e4249fdb3eef1ed49c75bbc1dd14ed3e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f24fe005ef6033b5e4307b39a54cf0ea801e7510\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\2a13a4434a69a0aaaff92297152253262d3dc603\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fe9cd72f7a58290af3eccd365c17612a6374b8f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\7d0d9ac3c3a994c1d4b0048a55845399df4543fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93b7d6ba3bb340e935bf7a36408eb3455264b759">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2e86a20ccf76e77f0863457a081cc2b094c4380\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\ef919afd75aa3676e5e03c36329856986b1589f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4eeba61bbc47e49a5fbdfd9aa21af5d10bf4df7c">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_49720392f8bd32485637d42e1e72d12238933d2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\19e653179260ff7663c73f87af8a64381cd1ca0e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="287051610dd01cc6eeaed7fc689712c31ad1ff70">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0781fec7cfb86c385ff831535ffe5ac5da239247\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\b704bdc4df2296368898ab9fc0e5888e9a319367\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2d9a64aad0c68325d1b0517c6e02fb5dfdb1dd0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\a7304554f58a811ebb58a061b0abb5ca4b37b710\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="183e4fb7cf95f4fa54963cfcdaf0f4d7e2397bad">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dcf75ff6a1cf953416be005617b75ad9e0a5d516\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\c54f22e83c994f762b15b0652f9cbc8e67c2b563\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="02e70fe04e0767ccfa16745b3398816d1171f0ad">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42be394d8917cf6385950b40dca12090a2b0e982\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\15385941975afbe04d15623cdc02f5f1b6a0514f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="32aa1b2a2f68f455403d10d41d8ded37c9812f11">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c761a34eb142eb17c41c0d5aa0d60129a027b6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\bbe41b6f5d250d959f57b5d9547e39126a785613\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b8d1a53648f7ecfe9e7bf0baf9ca657c5a1ff91">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c47e26bd47c197d6133568da8d8fca0e3c652925\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\c5b7bb3c4e75513e865db0142b8604935d822ba8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c01990d0a9bbc67f4c2b9610c1170046c2e37b3e">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1ec496fbe89f1c5190c2d3e38ed2b7e4d088a1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\49ef98fa117fcee10f27a1e66b7e4470da2bb645\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8748e15968514ff1708deb3bb7f0c17623e50bbb">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e47d659e8576e104fbb3c7cbf14a29bea32c0169\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\1715b2b625f8505193cbbcafff63c4f93ca2ed89\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b50fe5288bba9d1635ba619bd3c308319205543e">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_841525cf0d256f08dc35f03829916e4509b240ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\cf9a3fcdd7b0a5da25a2b17e5562d4fc06ae4488\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="610ae6a6872d9718fc05e2c726758206bd367595">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67d94ad3942938e0b5bd4e8f82f73f8fa5b56a15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\f40d79fdfc02533ed3725f64342a957ccfe4d1a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_834312a7918f304f433a11816499f255908a692d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\d1813572bee79158396bf5dec96db4d80dca55da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5cba8868595f6aaff54cf7d1798591108cf5611c">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_afcd3101b6ff02ec01687db98c6fd68a7622500e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\06090c4e2bbb53ec8275c4dde9ff978b94ff38b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3f1543d955a8243228b50e625d5582a8aabf439\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\48b9949a49597ae4c55c9313f83c2c79f232a3cb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01648cf16ad7e1616068f2ec981f93eac1906f4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\privacystreams-core\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b51e65508c581111d4b40e70d4c581438121e408">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\4\classes_f0c750c4544f72b29de7b3c97e047fca7c5dd1d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\4d0c196539537facfc648abbb8720201848a6b1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d27e0fce3f7aa9470eb8aad66f8d4460d6a0e7f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\87ecd6e42f0b88ef161decec8818f1bcbc0cd9e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d72eb1ceff1b0bac4916088eb44bb93f86b1265c">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6d5c05355d31f1ace6bf8537617b41218a91eb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\6ae31baf378cd54ec0ef9637d6e983ea75dbb10e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75c3db03f4db93c25c0b07e6991b232b0ccb19d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\b698dce1308984b6092852ff189456aff8d76ec4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2a1cdfff3f58d8811a451de96bafb77dde80c34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\f21a589f63b92165cc593c15c04d79b4b35ea60e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33ca65ea5326b2dbaccdf457ff85127fce8e3828\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\607f8f83290119e2e54809f91624f83c62cb1e58\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e23941db151e67886844de6586e180bb2b860ad">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7ab94b71da372720bbe4a5906256a0937554bf49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\c4b2f3499f4d6b3b6ecebba1c1aa56876421e351\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5a08b51844ab1f3090f6275f0c7b72c0e29782e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\152fde63c375d2e9286a48075c2d744dd7f12818\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2b4d3ecd541814f08200f8171def113095d5f39">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5aab36acd90a898b1f4432afe5cdfb7d9553c170\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.20.0\93d82db2bca534960253f43424b2ba9d7638b4d2\google-http-client-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.20.0_f36ec4e18318b4aedaa244d47678825d7c9d310e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\fa1d6007051f14ea647435013dd0156a1d8a3f40\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88ae4c6ceaeab7beca5e396e0698c6958e26a2d2">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3be8c69fd10af566cb7b0dd595e795cc0cd890b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\21a356b2297e020897aaaa2652f88a3095c718a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="80ecaefc1035fde747999e4c20e18d207363efa2">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_97c5290373c2abf59f74659ff7f9a7dbbf4f020a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mikel\.android\build-cache\50b47846bd440d0e92ba64c00ec04ab614bfe65e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b95f2bf44857a158b097e9f80d5d18d69f32584">
+        <dex dex="C:\Users\mikel\Desktop\Summer Project\Currently Working\FriendshipStudyDataCollector\FriendshipStudy\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b566b161e01daa77fe6ad67918696e27164351c\classes.dex" />
     </item>
 
 </items>

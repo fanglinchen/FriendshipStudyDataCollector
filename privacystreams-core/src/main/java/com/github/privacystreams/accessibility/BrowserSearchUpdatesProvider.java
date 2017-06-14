@@ -6,6 +6,7 @@ import com.github.privacystreams.core.Item;
 import com.github.privacystreams.core.providers.MStreamProvider;
 import com.github.privacystreams.core.purposes.Purpose;
 import com.github.privacystreams.utils.AppUtils;
+import com.github.privacystreams.utils.PermissionUtils;
 
 /**
  * Provide a live stream of browser search events.
@@ -13,6 +14,9 @@ import com.github.privacystreams.utils.AppUtils;
 
 class BrowserSearchUpdatesProvider extends MStreamProvider {
 
+    BrowserSearchUpdatesProvider(){
+        this.addRequiredPermissions(PermissionUtils.USE_ACCESSIBILITY_SERVICE);
+    }
     @Override
     protected void provide() {
         getUQI().getData(TextEntry.asUpdates(), Purpose.LIB_INTERNAL("Event Triggers"))
