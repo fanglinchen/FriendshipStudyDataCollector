@@ -3,6 +3,8 @@ package com.github.privacystreams.accessibility;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
+import com.github.privacystreams.utils.PermissionUtils;
+
 import java.util.Date;
 import java.util.List;
 
@@ -11,6 +13,9 @@ import java.util.List;
  */
 class TextEntryProvider extends AccessibilityEventProvider {
     protected InputEvent mEvent;
+    TextEntryProvider(){
+
+    }
 
     protected void onViewFocused(AccessibilityEvent event) {
 

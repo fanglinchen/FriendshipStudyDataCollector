@@ -17,7 +17,7 @@ abstract class AccessibilityEventProvider extends MStreamProvider {
     private boolean registered = false;
 
     AccessibilityEventProvider() {
-        this.addRequiredPermissions(PermissionUtils.USE_ACCESSIBILITY_SERVICE);
+//        this.addRequiredPermissions(PermissionUtils.USE_ACCESSIBILITY_SERVICE);
     }
 
     @Override
