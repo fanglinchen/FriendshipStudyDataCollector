@@ -5,12 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.provider.Settings;
-import android.text.TextUtils;
-
-import com.github.privacystreams.accessibility.PSAccessibilityService;
-import com.github.privacystreams.notification.PSNotificationListenerService;
-import com.github.privacystreams.utils.Logging;
 
 import java.util.Random;
 import java.util.Set;
@@ -44,41 +38,6 @@ public class Utils {
                 randomlySelectFriendInitial(true,context)!=null
                 && randomlySelectFriendInitial(false,context) !=null;
     }
-
-    public static boolean isNotificationServiceRunning(Context context){
-        return isMyServiceRunning(context, PSNotificationListenerService.class);
-    }
-
-    public static boolean isAccessibilitySettingsOn(Context mContext) {
-        int accessibilityEnabled = 0;
-        final String service = mContext.getPackageName() + "/" + PSAccessibilityService.class.getCanonicalName();
-        try {
-            accessibilityEnabled = Settings.Secure.getInt(
-                    mContext.getApplicationContext().getContentResolver(),
-                    android.provider.Settings.Secure.ACCESSIBILITY_ENABLED);
-            Logging.debug("accessibilityEnabled = " + accessibilityEnabled);
-        } catch (Settings.SettingNotFoundException e) {
-            Logging.debug("Error finding setting, default accessibility to not found: "
-                    + e.getMessage());
-        }
-        TextUtils.SimpleStringSplitter mStringColonSplitter = new TextUtils.SimpleStringSplitter(':');
-
-        if (accessibilityEnabled == 1) {
-            String settingValue = Settings.Secure.getString(
-                    mContext.getApplicationContext().getContentResolver(),
-                    Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES);
-            if (settingValue != null) {
-                mStringColonSplitter.setString(settingValue);
-                while (mStringColonSplitter.hasNext()) {
-                    String accessibilityService = mStringColonSplitter.next();
-                    if (accessibilityService.equalsIgnoreCase(service))
-                        return true;
-                    }
-                }
-            }
-        return false;
-    }
-
 
     public static boolean isTrackingEnabled(Context context){
         return isMyServiceRunning(context, TrackingService.class);

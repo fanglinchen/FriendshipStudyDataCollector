@@ -22,8 +22,6 @@ import java.util.Set;
  */
 public class PSPermissionActivity extends Activity {
 
-
-    private static final String TAG = "PSPermissionActivity";
     public static final String REQUEST_CODE = "request_code";
     private String appName;
     private Set<String> requestedPermissions;

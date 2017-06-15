@@ -45,6 +45,7 @@ public class ReminderManager extends BroadcastReceiver {
 
 	private String reuInitial;
 	private String nreuInitial;
+	private String participantId;
 
 	private Context mContext;
 
@@ -100,7 +101,7 @@ public class ReminderManager extends BroadcastReceiver {
 		mContext = context;
 		reuInitial = Utils.randomlySelectFriendInitial(true,context);
 		nreuInitial = Utils.randomlySelectFriendInitial(false,context);
-
+		participantId = Utils.getParticipantID(context);
 	}
 	// Only called once.
 	public void initialize(){
@@ -119,7 +120,7 @@ public class ReminderManager extends BroadcastReceiver {
 		endOfTheDaySurveyReminder.hour = 20;
 		endOfTheDaySurveyReminder.minute = 0;
 		endOfTheDaySurveyReminder.type = REMINDER_TYPE_DAILY;
-		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
+		endOfTheDaySurveyReminder.url = Constants.URL.END_OF_THE_DAY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial+"&Id="+participantId;
 		endOfTheDaySurveyReminder.notifText = "Self report";
 		endOfTheDaySurveyReminder.notifTitle = "Survey";
 
@@ -129,7 +130,7 @@ public class ReminderManager extends BroadcastReceiver {
 		Random r = new Random();
 		dailyRandomSurveyReminder.hour = r.nextInt(22 - 10) + 10;
 		dailyRandomSurveyReminder.minute = r.nextInt(60);
-		dailyRandomSurveyReminder.url = Constants.URL.DAILY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
+		dailyRandomSurveyReminder.url = Constants.URL.DAILY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial+"&Id="+participantId;
 		dailyRandomSurveyReminder.notifText = "Self report";
 		dailyRandomSurveyReminder.notifTitle = "Survey";
 
@@ -138,7 +139,7 @@ public class ReminderManager extends BroadcastReceiver {
 		weeklySurveyReminder.hour = 20;
 		weeklySurveyReminder.minute = 0;
 		weeklySurveyReminder.type = REMINDER_TYPE_WEEKLY;
-		weeklySurveyReminder.url = Constants.URL.WEEKLY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial;
+		weeklySurveyReminder.url = Constants.URL.WEEKLY_EMA_URL+"&Source="+reuInitial+"&OldFriend="+nreuInitial+"&Id="+participantId;
 		weeklySurveyReminder.notifText = "Self report";
 		weeklySurveyReminder.notifTitle = "Survey";
 

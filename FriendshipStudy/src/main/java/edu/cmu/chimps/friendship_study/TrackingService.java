@@ -47,8 +47,6 @@ import com.github.privacystreams.utils.Logging;
 import edu.cmu.chimps.friendship_study.pam.PAMActivity;
 import edu.cmu.chimps.friendship_study.reminders.ReminderManager;
 
-//import com.github.privacystreams.accessibility.SerializedAccessibilityNodeInfo;
-
 /**
  * Created by fanglinchen on 3/16/17.
  */
