@@ -14,6 +14,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url 'https://jitpack.io'
+            credentials { username 'c0a2311088ae54fc257c1875b8502934888ad720' }
+        }
     }
 }
 

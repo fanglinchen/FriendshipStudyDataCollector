@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/55f302a056b1b72c68863d790ac1dd3f3833653f/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_eaccfe498a4ae046e6bac096a2a38225a9e894d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/816b06015cf580fb8fab72c58db5cfda18958963/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_d7980110f2f18226ba875a0e098431b4f3bdfab6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.3.2/4038f9f6c7ab8e3fc03ad11772e44f751822e648/httpcore-nio-4.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4038f9f6c7ab8e3fc03ad11772e44f751822e648">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-nio-4.3.2_0e67c19f862fbc816f91fdd50b27e481b232b7d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/4b64c711991a09b2c838974d627e42665d3272ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="eb89ab93f4074cfa99058d5d529bff70f9a6e4ed">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a7ae7aed3995e0099e194534db9a912a0b77db1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/f53e9f41a0fc0bfbec0e92128766b1696d260f7d/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_851a08613ac942819a40f60be01b151838272eb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_a1096709bc39aa2bb6ab8d36f2a5cf6d828e5d58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/dd38ebd4919ca04ffa8f0dd9dce3fe2f4282bd04/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_15c1d0aeb5cf64a77fd49b23a677399689ebd78f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/7d60fdc089cd02cd98d5653a77c4e10c8562d63c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9748074604af686a87c9c7095eb275d57fe05d53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/2fd4635329cde895a643b1e97e607991cb5212b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b2d66dd8021be5f58d6e66d4c505addebc3aea3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.0/19f42c154ffc689f40a77613bc32caeb17d744e3/jackson-annotations-2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.7.0_10616bfd1ae97c0164efb712ca697b40d67571aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.0/7d3430de9f2b600b074ba3bc007edcfbc4bbf4fb/jackson-databind-2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7d3430de9f2b600b074ba3bc007edcfbc4bbf4fb">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.7.0_fd6a834e97b02780c529fa423fa27e92634d5e0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_6842729ce59e544e12728cb681d3d854b64d195d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.0.2/6c0421e057af0fed081f0b8b4c4df829c4732a5c/httpasyncclient-4.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6c0421e057af0fed081f0b8b4c4df829c4732a5c">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/httpasyncclient-4.0.2_75c5e10815abe93efd022e6ca7f42a26ce7c4ae3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.dropbox.core/dropbox-core-sdk/2.1.1/786a91e07e28575967a2a1656dd4eaaff10587fb/dropbox-core-sdk-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="786a91e07e28575967a2a1656dd4eaaff10587fb">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/dropbox-core-sdk-2.1.1_ed5090c6f75a51b4983c4da7ccd84b7db20e6427/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/b1519a8f224ec8e248964c0f3558df927becfd55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_08b167607b4776ab4740433bf05fd8ebc7d8a0cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-mail/1.5.5/53a2f927b235acb565dbe9314ececfb7e6d43020/android-mail-1.5.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="53a2f927b235acb565dbe9314ececfb7e6d43020">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/android-mail-1.5.5_9c37e9e150bc3a7814e0f89f1cb45a4c8226f7a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.easilydo/sift-sdk/1.0.0/6b9dbb0e45775f684b2ece1f453f7d126760a58f/sift-sdk-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6b9dbb0e45775f684b2ece1f453f7d126760a58f">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/sift-sdk-1.0.0_0b41335740c18755a79bb437fefc0d91a6a860e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3.6_66420e6203019ea50c5ca850993774d7593653fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/9d4e35e5266c3dc029473ca270728ab9726f0db8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e323c9afc0583da97c166f145b9afb39b66ab8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7fcf30c25b8f4a9379b9dad0d3f487b25272c026">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/slf4j-api-1.7.13_c9c8c91fe74e54143cae96eeb2f6839ffa5a1295/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/d7b3deeaecc553fb526f619785602eef4e844a63/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88c8a01ba645d9d1a63f9a0aff593f41a7462d62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang-2.6_ea86b125d235f099bbc76fb907d60ea206d0194e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/6c5a2120facf416f76ac3e3b8cff7df543887420/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e9186074109b8b5179c34e7bf922efbfa9fe3ece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.mashape.unirest/unirest-java/1.4.7/f8526ec572d5d9e02ae968e2ddab00c5fd4c0fc5/unirest-java-1.4.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f8526ec572d5d9e02ae968e2ddab00c5fd4c0fc5">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/unirest-java-1.4.7_94981f3ad3a679c7e9e5a75ea5ae93d1ec5b8f9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.5.5/5442d5e05808145434b750c9f8a0c3f537383c5a/android-activation-1.5.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/android-activation-1.5.5_636fa0f3765eb34c5594e5c27d34120b1e8733fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/816b06015cf580fb8fab72c58db5cfda18958963/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c58b01ec2aba99c048eae4fc2d9a7485149c7433/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/6c5a2120facf416f76ac3e3b8cff7df543887420/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a48aabca5ef29ae0e7d83be95f763fd0cca33624/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/f53e9f41a0fc0bfbec0e92128766b1696d260f7d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a7a251912e1c32b68c985bb093bf2472a47a57c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.4/b8f38a249116b66d804a5ca2b14a3459b7913a94/jackson-core-2.7.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b8f38a249116b66d804a5ca2b14a3459b7913a94">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.4_d3cc84a8f38bf6a7d1b75a578394aa022adf86c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.3.3_07217ec6ea50a7e2365437f34456851e88a56814/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/56498efd17752898cfcc3868c1b6211a07b12b8f/joda-time-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.3_bde421485da0f476a715cdc02e299de8d5a7f2f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/55f302a056b1b72c68863d790ac1dd3f3833653f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/classes_303a8df9b1563f8d3d0fe6bcddc32de8dffc315c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fanglinchen/.android/build-cache/2fd4635329cde895a643b1e97e607991cb5212b5/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/fanglinchen/Documents/MessagePrivacyDiaryStudy/DiaryStudy/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_84cbb3d9e99ea973e6f5ab0f336c47e43707017f/classes.dex" />
+    </item>
+
+</items>

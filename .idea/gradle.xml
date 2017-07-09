@@ -8,8 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/FriendshipStudy" />
-            <option value="$PROJECT_DIR$/privacystreams-core" />
+            <option value="$PROJECT_DIR$/DiaryStudy" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

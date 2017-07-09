@@ -1,1 +1,1 @@
-include ':FriendshipStudy', ':privacystreams-core'
+include ':DiaryStudy'

@@ -25,6 +25,7 @@ public class BrowserSearch extends Item {
     BrowserSearch(String title, long timestamp) {
         this.setFieldValue(TEXT, title);
         this.setFieldValue(TIMESTAMP,timestamp);
+
     }
 
     /**
